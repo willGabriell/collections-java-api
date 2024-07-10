@@ -71,6 +71,10 @@ public class ListaTarefas
         return tarefasParaExibir;
     }
 
+    public void LimparLista() {
+        tarefaSet.clear();
+    }
+
     public static void main(String[] args) {
         ListaTarefas listaTarefas = new ListaTarefas();
 
